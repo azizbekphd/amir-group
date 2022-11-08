@@ -118,7 +118,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
         paths: [
             ...productsDemo.map((e) => `/orders/checkout/${e.id}`)
         ],
-        fallback: true,
+        fallback: false,
     }
 }
 
