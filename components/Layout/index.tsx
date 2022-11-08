@@ -2,7 +2,7 @@ import React from "react"
 import { AppBar, Menu, Breadcrumps } from ".."
 import styles from "./Layout.module.css"
 
-const Layout = ({children}: React.ReactNode) => {
+const Layout = ({children}: {children: React.ReactNode}) => {
     return (
     <>
         <AppBar notifications={1}/>
