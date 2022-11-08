@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 1px;
+    background: var(--primary-color);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 1px;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.item:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.item:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    background: var(--white);
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.item.selected {
+    background: transparent;
+    color: var(--white);
+}

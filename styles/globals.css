@@ -1,9 +1,26 @@
+@import "text-styles.css";
+@import "fonts.css";
+
 html,
 body {
   padding: 0;
   margin: 0;
+  /*
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  */
+  --primary-color: #00C48C;
+  --green: #00C48C;
+  --secondary-color: #FF647C;
+  --pink: #FF647C;
+  --text-color: #262728;
+  --black: #262728;
+  --background-color: #F3F5F8;
+  --white: #FFFFFF;
+  --grey: #BBC2D0;
+  --error-color: #EC3920;
+  --red: #EC3920;
+  --blue-for-admin: #3D639D;
 }
 
 a {
@@ -13,8 +30,19 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: Gilroy;
 }
 
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/*
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -24,3 +52,4 @@ a {
     background: black;
   }
 }
+*/

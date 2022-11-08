@@ -1,0 +1,78 @@
+.wrapper {
+    height: 70px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+}
+
+.appBar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.logo {
+    @apply admin-main-r;
+    margin-left: 64px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+}
+
+.actionsIcon {
+    color: var(--grey);
+    width: 24px;
+    height: 24px;
+    margin: 23px;
+}
+
+.notifications {
+    background: transparent;
+    border: none;
+    position: relative;
+}
+
+.notificationCount {
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    font-weight: 600;
+    font-size: 10px;
+    color: var(--white);
+    background: var(--green);
+    border-radius: 8px;
+    height: 16px;
+    min-width: 16px;
+}
+
+.profileLink {
+    margin-left: 20px;
+    padding: 0 60px;
+    align-self: stretch;
+    border-radius: 0 0 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue-for-admin);
+    color: var(--white);
+}
+
+.profileLinkIcon {
+    width: 32px;
+    height: 32px;
+    margin: 12px;
+}

@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    background: var(--background-color);
+    margin: 20px;
+    margin-right: 60px;
+    padding: 20px 30px;
+    border-radius: 6px;
+    flex: 1;
+}

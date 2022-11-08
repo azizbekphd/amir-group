@@ -1,0 +1,70 @@
+.admin-heading-sb {
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 20px;
+    color: var(--blue-for-admin);
+}
+
+.admin-button-sb {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1%;
+}
+
+.admin-main-sb {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    line-height: 2;
+}
+
+.admin-main-m {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.3px;
+    line-height: 2;
+}
+
+.admin-main-r {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.admin-small-r {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.3px;
+}
+
+.admin-breadCrumps-r {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.app-heading-m {
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: -0.3px;
+}
+
+.app-button-sb {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.app-main-r {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.app-small-r {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.app-price-m {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+}

@@ -1,0 +1,109 @@
+.item {
+    background: var(--white);
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0px 10px 30px rgba(138, 149, 158, 0.1);
+    transition-duration: 0.2s;
+}
+
+.item:hover {
+    box-shadow: 0px 10px 30px 20px rgba(138, 149, 158, 0.1); 
+}
+
+.info {
+    display: grid;
+    grid-template-areas:
+        "i i"
+        "n n"
+        "p p"
+        "s m";
+    gap: 6px;
+}
+
+.info * {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.name {
+    grid-area: n;
+}
+
+.price {
+    grid-area: p;
+}
+
+.startingFrom, .months {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.startingFrom {
+    grid-area: s;
+    max-height: 20px; 
+    border-radius: 2px;
+    background-color: var(--pink);
+    padding: 6px;
+    color: var(--white);
+    font-size: 13px;
+    width: min-content;
+}
+
+.months {
+    grid-area: m;
+    justify-content: flex-start;
+}
+
+.name > * {
+    max-height: 17px; 
+    line-height: 17px;
+}
+
+.price > * {
+    max-height: 18px; 
+    line-height: 18px;
+}
+
+.startingFrom > * {
+    max-height: 20px; 
+    line-height: 20px;
+    font-size: 13px;
+    letter-spacing: -0.3px;
+}
+
+.months > * {
+    max-height: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: -0.3px;
+    color: var(--grey);
+}
+
+.imageWrapper {
+    grid-area: i;
+    width: 168px;
+    height: 168px;
+    background-color: var(--background-color);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.sales {
+    position: absolute;
+    display: grid;
+    gap: 6px;
+    top: 14px;
+    left: 6px;
+}

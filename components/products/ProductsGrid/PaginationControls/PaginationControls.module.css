@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black);
+}
+
+.numbers {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1%;
+}
+
+.numbers > * {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current {
+    font-weight: 600;
+    color: var(--white);
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.ellipsis {
+    width: 50px;
+}

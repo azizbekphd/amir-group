@@ -1,0 +1,16 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 52px;
+    border-radius: 26px;
+    background: var(--primary-color);
+    color: var(--white);
+    border: none;
+    transition-duration: 0.2s;
+}
+
+.button:active {
+    opacity: 0.8;
+}

@@ -1,0 +1,38 @@
+.wrapper {
+    width: 36px;
+    height: 28px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper > * {
+    width: 16px;
+    height: 16px;
+}
+
+.bundle {
+    background: #A2AEDB;
+    color: #3855B3;
+}
+
+.tradeIn {
+    background: #F39DBD;
+    color: #E83274;
+}
+
+.tradeIn * {
+    stroke: #E83274;
+}
+
+.discount {
+    background: #FFBD95;
+    color: #FF6422;
+}
+
+.imei {
+    background: #AAD9AC;
+    color: #4CAF50;
+}
+

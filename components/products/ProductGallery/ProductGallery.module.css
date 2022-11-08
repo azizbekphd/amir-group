@@ -1,0 +1,60 @@
+.wrapper {
+    max-height: inherit;
+    max-width: inherit;
+    min-width: inherit;
+}
+
+.pager::-webkit-scrollbar {
+    display: none;
+}
+
+.pager {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    max-width: inherit;
+    max-height: inherit;
+    min-width: inherit;
+    width: 480px;
+    height: 380px;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+
+.pager > * {
+    min-width: inherit;
+    scroll-snap-align: start;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.indicatorWrapper {
+    position: absolute;
+    width: 100%;
+    bottom: 16px;
+}
+
+.indicator {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.indicatorDot {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--grey);
+    margin: 3px;
+}
+
+.currentIndicator {
+    background: var(--blue-for-admin);
+}
+

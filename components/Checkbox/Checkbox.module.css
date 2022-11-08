@@ -1,0 +1,26 @@
+.input {
+    display: none;
+}
+
+.checkmark {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+
+.checkmark:active {
+    opacity: 0.8;
+}
+
+.checkmark:not(.checked) {
+    background: var(--white);
+    border: 1px solid var(--grey);
+}
+
+.checkmark.checked {
+    background: var(--primary-color);
+}

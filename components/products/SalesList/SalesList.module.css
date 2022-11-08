@@ -1,0 +1,39 @@
+.wrapper {
+    margin: 30px 0;
+}
+
+.title {
+    color: var(--primary-color);
+    padding-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.item * {
+    line-height: 1;
+}
+
+.content {
+    padding: 0 16px;
+    flex: 1;
+}
+
+.content > * {
+    display: block;
+}
+
+.itemTitle {
+    padding-bottom: 10px;
+}
+
+.itemInfo {
+    padding-bottom: 8px;
+}
+
+.itemSubtitle {
+    color: var(--grey);
+}
