@@ -125,9 +125,15 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (ctx) => {
     const id = ctx.params!.id;
     const response = await fetch(`${server}/api/products/${id}`);
-    const body = await response.json();
-    return {
-        props: body,
+    if (response.ok) {
+        const body = await response.json();
+        return {
+            props: body,
+        }
+    } else {
+        return {
+            notFound: true,
+        }
     }
 }
 
